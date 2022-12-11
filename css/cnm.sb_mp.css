@@ -34,18 +34,12 @@ a{
 }
 .exn1_top span{
 	color: #282828;
-	font: 45px cnm,Arial,sans-serif;
+	font: 35px cnm,Arial,sans-serif;
 	text-shadow: 3px 3px 3px #29738b;
 	font-weight: 400;
 	margin-left: 8px;
 }
-.exn1_top a{
-	color: #282828;
-	font-size: 12px;
-	font-weight: 400;
-	margin-right: 5%;
-	float: right;
-}
+
 .exn1_banner{
 	width: 100%;
 	height: 220px;
