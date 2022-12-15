@@ -1,0 +1,448 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* 居中，宋体 */
+body,html{
+	text-align: center;
+	font-family: "宋体";
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/* 特殊英文字体引入
+实现方式: font: 26px cnm,Arial,sans-serif; */
+@font-face {
+	font-family:cnm;src:url("../font/cnm.sb.ttf")
+}
+#etext{
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 2;
+	transform: translateY(50%);
+	color: #F9F9F9;
+	font-size: 22px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+/*-----内容区域------*/
+#content{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 80%;
+	height: 0%;
+	background-color: rgba(249,249,249,0.7);
+	border-radius: 8px;
+	box-shadow: 0px 0px 20px rgba(40,40,40,0.1);
+	z-index: 7;
+	overflow: hidden;
+	transition: 0.5s;
+}
+/*-----内容区域-左侧------*/
+#cleft{
+	width: 18%;
+	height: 100%;
+	background-color: rgba(254,254,254,1);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	transition: 0.5s;
+	box-sizing: border-box;
+}
+.cleft_top{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+}
+.cleft_topbg{
+	width: 100%;
+	height: 50px;
+	/* 左上角头像下面的背景图片 */
+	background-image: url(../img/cnmtlbg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.cleftbg_img{
+	width: 65px;
+	height: 65px;
+	border-radius: 8px;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+	margin: auto;
+}
+.cleftbg_img img{
+	width: 100%;
+}
+.cleftbg_p{
+	width: 90%;
+	padding-bottom: 8px;
+	margin: 35px auto;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #9facb2;
+	border-bottom: 1px solid #ececec;
+}
+#cleft li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	background-color: #F9F9F9;
+	cursor: pointer;
+}
+#cleft li:nth-child(1){
+	background-color: #ececec;
+}
+#cleft li:hover{
+	background-color: #efefef;
+}
+#cleft li:hover span{
+	color: #67737a;
+}
+#cleft li:hover img{
+	transform: scale(1.1);
+}
+#cleft li img{
+	float: left;
+	width: 20px;
+	margin-top: 10px;
+	margin-left: 18%;
+	transition: 0.3s;
+}
+#cleft li span{
+	display:inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	color: #68747c;
+	margin-left: 12%;
+}
+
+/*-----内容区域-右侧------*/
+#cright{
+	width: 82%;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+	transition: 0.5s;
+	position: relative;
+}
+/*-----Nav01-首页-内容区域-右侧------*/
+#nav01{
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+	/* 官网首页页面背景图片 */
+	background-image: url(../img/shouye.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 7;
+}
+.nav01_left{
+	width: 40%;
+	height: 100%;
+	margin-left: 5%;
+	padding-left: 2%;
+	float: left;
+	transition: 0.5s;
+	position: relative;
+}
+.nav01_logo{
+	width: 100%;
+	text-align: left;
+	margin-top: 16px;
+}
+.nav01_logo img{
+	width: 70px;
+	float: left;
+}
+.nav01_logo h4{
+	margin-left: 50px;
+	font: 50px cnm,Arial,sans-serif;
+	text-shadow: 5px 5px 5px #909090;
+}
+.nav01_logo h4 span{
+	font: 30px cnm,Arial,sans-serif;
+	margin-left: 4px;
+	text-shadow: 5px 5px 5px #909090;
+}
+.nav01_wz{
+	width: 100%;
+	margin-top:18%;
+	text-align: left;
+}
+.nav01_wz h5{
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	font-weight: 300;
+	color: #ff0000;
+}
+.nav01_wz h1{
+	font: 2em cnm,Arial,sans-serif;
+	text-shadow: 10px 10px 10px #909090;
+	letter-spacing: 0.3em;
+	font-weight: 700;
+	color: #ee7544;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+.nav01_wz h4{
+	font: 1.8em cnm,Arial,sans-serif;
+	text-shadow: 5px 5px 5px #909090;
+	letter-spacing: 0.5em;
+	font-weight: 500;
+	color: #f55b34;
+}
+.nav01_wz h3{
+	font-size: 1.3em;
+	letter-spacing: 0.2em;
+	font-weight: bolder;
+	color: #2e284c;
+	margin-top: 8px;
+}
+.nav01_but{
+	margin-top: 14%;
+}
+.nav01_but div{
+	float: left;
+	height: 36px;
+	padding: 0px 40px;
+	margin: 0px 10px;
+	/* 按钮边框颜色 */
+	border: 1px solid #4b9cdb;
+	font-size: 13px;
+	line-height: 36px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.nav01_but01{
+	/* 首页探索按钮颜色 */
+	color: #F9F9F9;
+	background-color: #4b9cdb;
+}
+.nav01_but02{
+	/* 商业合作字体颜色 */
+	color: #4b9cdb;
+}
+.nav01_but div:hover{
+	color: #F9F9F9;
+	background-color: #4b9cdb;
+	box-shadow: 0px 0px 10px rgba(40,40,40,0.2);
+}
+.nav01_right{
+	width: 20%;
+	height: 100%;
+	padding-right: 2%;
+	float: right;
+	position: relative;
+}
+.nav01_tpw{
+	margin-top: 20px;
+	text-align: right;
+}
+.nav01_tpw h3{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #4b9cdb;
+}
+.nav01_tpw p{
+	font-size: 12px;
+	font-weight: 100;
+	color: #4b9cdb;
+}
+.nav01_fpw{
+	position: absolute;
+	right: 6%;
+	bottom: 18%;
+	letter-spacing: 1px;
+	text-align: right;
+}
+.nav01_fpw p{
+	color: #4b9cdb;
+	font-size: 12px;
+}
+.nav01_fooder{
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #535353;
+	font: 12px cnm,Arial,sans-serif;
+	text-shadow: 10px 10px 10px #909090;
+}
+/* 字下面滑块特效 */
+.bar {
+  float: left;
+  width: 25px;
+  height: 3px;
+  margin-top: -3px;
+  border-radius: 2px;
+  background-color: #4b9cdb;
+}
+.bar {
+  animation:loadingJ 5s infinite;
+}
+@keyframes loadingJ {
+  0% {
+    transform: translate(0, 0);
+  }
+  25%{
+    background-color: #f5634a;
+    width: 55px;
+  }
+  50%{
+    transform: translate(180px, 0);
+    background-color: #f5634a;
+    width: 15px;
+  }
+  75%{
+    background-color: #f5634a;
+    width: 55px;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/*-----Nav02-关于本站-内容区域-右侧------*/
+#nav02{
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 6;
+}
+/* 设置滚动条的样式 */
+#nav02::-webkit-scrollbar {
+   width:8px;
+}
+/* 滚动槽 */
+#nav02::-webkit-scrollbar-track {
+   -webkit-box-shadow:rgba(254,254,254,1);
+   border-radius:10px;
+}
+/* 滚动条滑块 */
+#nav02::-webkit-scrollbar-thumb {
+   border-radius:3px;
+   background-color: rgba(40,40,40,0.6);
+}
+.nav02_bg{
+	width: 100%;
+	height: 50px;
+	
+	position: relative;
+}
+.nav02_bt{
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	/* 顶图文字背景颜色 */
+	background-image: linear-gradient(to top left,#25d8df , #CD69C9);
+	border-radius: 5px;
+	padding: 0px 10px;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #282828;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.nav02_kj{
+	width: 90%;
+	margin: 80px auto 10px auto;
+	text-align: left;
+	overflow: hidden;
+}
+.nav02_kj h3{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: rgba(40,40,40,0.8);
+	margin: 50px 0px;
+}
+.nav02_grzl_headimg{
+	width: 25%;
+	height: 100%;
+	border-right: 1px dashed rgba(40,40,40,0.2);
+	float: left;
+}
+.nav02_grzl_headimg img{
+	width: 160px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
+}
+.nav02_grzl_headimg a{
+	display: inline-block;
+	width: 70%;
+	height: 36px;
+	border-radius: 4px;
+	background-color: #a5adf6;	/* 联系站长按钮 */
+	color: #f9f9f9;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 40px;
+}
+.nav02_grzl_txt{
+	width: 70%;
+	height: 100%;
+	float: left;
+	padding-left: 10%;
+}
+.nav02_grzl_txt p{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 50px;
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.08);
+}
+.nav02_kj p{
+	width: 90%;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 2em;
+	font-size: 14px;
+	text-shadow: 10px 10px 10px #909090;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.2);
+}
