@@ -184,7 +184,7 @@ li{
 }
 .nav01_logo h4{
 	margin-left: 50px;
-	font: 50px cnm,Arial,sans-serif;
+	font: 40px cnm,Arial,sans-serif;
 	text-shadow: 5px 5px 5px #909090;
 }
 .nav01_logo h4 span{
@@ -333,7 +333,7 @@ li{
   }
 }
 
-/*-----Nav02-关于本站-内容区域-右侧------*/
+/*-----Nav02-支持我们-内容区域-右侧------*/
 #nav02{
 	width: 100%;
 	height: 100%;
@@ -445,4 +445,115 @@ li{
 	letter-spacing: 2px;
 	color: rgba(40,40,40,0.9);
 	border-bottom: 1px dashed rgba(40,40,40,0.2);
+}
+
+/*-----Nav07-本站源码-内容区域-右侧------*/
+#nav07{
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+/* 设置滚动条的样式 */
+#nav07::-webkit-scrollbar {
+   width:8px;
+}
+/* 滚动槽 */
+#nav07::-webkit-scrollbar-track {
+   -webkit-box-shadow:rgba(254,254,254,1);
+   border-radius:10px;
+}
+/* 滚动条滑块 */
+#nav07::-webkit-scrollbar-thumb {
+   border-radius:3px;
+   background-color: rgba(40,40,40,0.6);
+}
+.nav07_bg{
+	width: 100%;
+	height: 60px;
+	
+	position: relative;
+}
+.nav07_bt{
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	/* 顶图文字背景颜色 */
+	background-image: linear-gradient(to top left,#25d8df , #CD69C9);
+	border-radius: 5px;
+	padding: 0px 10px;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #282828;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.nav07_kj{
+	width: 90%;
+	margin: 80px auto 10px auto;
+	text-align: left;
+	overflow: hidden;
+}
+.nav07_kj h3{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: rgba(40,40,40,0.8);
+	margin: 50px 0px;
+}
+.nav07_kj h4{
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: rgba(40,40,40,0.8);
+	margin: 10px 0px;
+}
+.nav07_kj h5{
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: rgba(40,40,40,0.8);
+	margin: 8px 0px;
+}
+
+.nav07_kj p{
+	width: 90%;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 2em;
+	font-size: 14px;
+	text-shadow: 10px 10px 10px #909090;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.2);
+}
+.nav07_kj p .lj{
+	width: 90%;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 2em;
+	font-size: 14px;
+	text-shadow: 10px 10px 10px #df3838;
+	font-weight: 400;
+	/* letter-spacing: 2px; */
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.2);
+}
+.ebpx7{
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: #535353;
+	margin: 30px 0px;
 }
