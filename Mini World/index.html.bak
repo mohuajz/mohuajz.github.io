@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!--网站收录数据抓取-->
+    <meta name="language" content="zh-CN">
+    <meta name="title" content="墨画家族官方网站-迷你世界">
+    <meta name="author" content="墨画家族官方">
+    <meta name="description" content="墨画家族为迷你玩家与我的世界玩家提供支持">
+    <meta name="keywords" content="墨画家族,墨画家族官方网站,墨画家族官网,迷你世界墨画家族,我的世界墨画家族,迷你世界,迷你世界下载,我的世界,我的世界下载,迷你世界视频,迷你世界论坛,我的世界视频,我的世界论坛,迷你世界官网,我的世界官网,计小队,计小队科技">
+    <meta name="robots" content="All">
+    <!--数据抓取完成-->
+    <title>迷你世界-墨画家族官网-墨画家族官方网站</title>
+    <!-- 调用ICON地址 -->
+    <link rel="icon" href="img/cnm.sb.ico">
+    <!-- 自适应 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Css样式调用 -->
+    <link rel="stylesheet" type="text/css" href="css/cnm.sb_load.css">
+    <link rel="stylesheet" type="text/css" href="css/cnm.sb_bg.css">
+    <link rel="stylesheet" type="text/css" href="css/cnm.sb_pc.css">
+    <link rel="stylesheet" type="text/css" href="css/cnm.sb_mp.css">
+    <!-- Javascript样式调用 -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/cnm.sb_judge.js"></script>
+    <script src="js/cnm.sb_pc.js"></script>
+    <script src="js/cnm.sb_mp.js"></script>
+    <script src="js/cnm.sb_copy.js"></script>
+    <script src="js/jl-ip.js"></script>
+    <meta name="baidu-site-verification" content="code-FF0lyvjvQY">
+  </head>
+  <body> <!-- 电脑PC端 -->
+    <div id="pc">
+      <div id="content">
+        <!-- 内容左侧选择区域 -->
+        <ul id="cleft">
+          <div class="cleft_top">
+            <div class="cleft_topbg"> </div>
+            <div class="cleftbg_p">墨画家族官方网站</div>
+          </div>
+          <li id="cleft_li01" style="background-color: #ececec;"><img src="font/cnmsb01.png"><span>首页</span> </li>
+          <li id="cleft_li02"><img src="font/cnmsb05.png"><span>关于</span></li>
+          <li id="cleft_li07"><img src="font/mohua02.png"><span>下载</span></li>
+          <li id="cleft_li08"><img src="font/cnmsb03.png"><span>历史</span></li>
+          <li id="cleft_li06" onclick="AddFavorite('mohuajz.github.io',location.href)"><img
+
+              src="font/cnmsb06.png"><span>收藏</span></li>
+          <!-- <li class="cleft_bottom"><img src="font/nav_bottom.png"><span>宽度设置</span></li> -->
+        </ul>
+        <!-- 内容左侧选择区域 -->
+        <div id="cright">
+          <!--第一页 - 首页-HTML页面-->
+          <div id="nav01">
+            <div class="nav01_left">
+              <div class="nav01_logo"> <img src="img/mohua%20logo.png">
+                <h4>墨画家族<span>mohuajz.top</span></h4>
+              </div>
+              <div class="nav01_wz">
+                <h5>我们的程序猿一直在努力，</h5>
+                <h5>只为了给你更好的体验</h5>
+                <h5><a href="https://mohuajz.top/other/donate/">支持一下</a></h5>
+                <h1>迷你世界</h1>
+                <h4>《迷你世界》是一款高度自由的休闲3D沙盒游戏</h4>
+                <h3>官网地址：<a href="https://mini1.cn">mini1.cn</a></h3>
+                <div class="bar"></div>
+              </div>
+              <div class="nav01_but">
+                <div class="nav01_but01">关于</div>
+                <div class="nav01_but02">下载</div>
+              </div>
+            </div>
+            <div class="nav01_right">
+              <div class="nav01_tpw">
+                <h3>最新公告</h3>
+                <p>[404]暂时无法获取服务器信息</p>
+                <p><a href="https://mohuajz.top/notice/">查看更多</a></p>
+              </div>
+              <div class="nav01_fpw">
+                <p>不造谣不传谣不信谣</p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p>本站纯公益资金有限不确定能运行多久</p>
+                <p>有能力的话还请<a href="https://mohuajz.top/other/donate/">支持一下</a></p>
+              </div>
+            </div>
+            <!-- 版权信息，可修改,可删除,不强求 -->
+            <div class="nav01_fooder">版权所有:墨画家族 &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp; © 2020-2022 All Copyright Reserved</div>
+          </div>
+          <!-- 第二页 - 关于我们 -->
+          <div id="nav02">
+            <div class="nav02_bg">
+              <div class="nav02_bt">关于</div>
+            </div>
+            <!-- 关于我们 -->
+            <div class="nav02_kj" style="height: 600px;">
+              <div class="nav02_grzl_headimg"> <img src="img/nav05_fj.png"
+
+                  alt="[头像]"> <a href="https://mini1.cn" target="_blank"
+
+                  rel="noopener noreferrer">进入官网</a> </div>
+              <div class="nav02_grzl_txt">
+                <p align="center">😁《迷你世界》😁</p>
+                <p>《迷你世界》是一款高自由的精美3D沙盒游戏。这里没有规则限制，也没有特定的玩法，只有创造、生存与冒险的乐趣。可以通过双手和智慧完成一座城市或你理想的建筑，也可以化勇气为力量挑战荒野生存。可以体验躺在一望无际的草原感受天空与卷云舒的那份自在，也可以感受小动物围在身边的轻松惬意。当然你也可以做一位世界改造者，植树造林、挖河造湖、创建生态，发挥你的创造力改变世界，让世界变得更美好！最后还可以把你构建的世界分享给小伙伴，邀请伙伴一起冒险，一起欢乐，一起创造属于你我的世界！</p>
+              </div>
+            </div>
+            <!-- 介绍 -->
+            <div class="nav02_kj">
+              <h3>😁链接</h3>
+              <p><a href="https://mini1.cn">迷你世界官网</a>（大陆）</p>
+              <p><a href="https://mini1.cn">迷你世界官网</a>（国际）</p>
+              <p><a href="https://kfz.mini1.cn/">迷你世界创作者服务平台</a></p>
+              <p><a href="https://www.mini1.cn/article/20190527/836.html">联系迷你世界官方</a></p>
+            </div>
+            <!-- 到底了-提示 -->
+            <p class="ebpx">--- 暂时先展示这么多啦 ---</p>
+          </div>
+          <!-- 第三页 - 下载迷你世界 -->
+          <div id="nav07">
+            <div class="nav07_bg">
+              <div class="nav07_bt">下载迷你世界</div>
+            </div>
+            <!-- 写在前面 -->
+            <div class="nav07_kj">
+              <h3>大陆服：</h3>
+              <h5>迷你官方下载地址(由迷你世界官方提供)【推荐】</h5>
+              <p>前往<a href="https://mini1.cn">官网下载</a></p>
+              <p>安卓版<a href="https://mdownload.mini1.cn/latest/miniworldMini-wp.apk">下载</a></p>
+              <p>桌面版<a href="https://mdownload.mini1.cn/latest/miniworldoffice.exe">下载</a></p>
+              <p>苹果版<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">下载</a></p>
+              <p> &nbsp; </p>
+            </div>
+            <div class="nav07_kj">
+              <h5>墨画家族官网下载地址(可能不是最新版本)【不推荐】</h5>
+              <p>安卓版<a href="https://www.123pan.com/s/zTZRVv-3dc0h">下载</a></p>
+              <p>桌面版<a href="https://www.123pan.com/s/zTZRVv-ddc0h">下载</a></p>
+              <p>苹果版[不支持]（苹果用户请前往<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">苹果App Store下载</a>）</p>
+              <p> &nbsp; </p>
+            </div>
+            <div class="nav07_kj">
+              <h3>国际服（国内需要翻墙）：</h3>
+              <h5>迷你官方下载地址【由迷你世界官方提供】【需要翻墙】【不推荐】</h5>
+              <p>前往<a href="https://miniworldgame.com/">官网下载</a></p>
+              <p>安卓版<a href="https://mdownload.miniworldgame.com/miniwmobile/android-miniwan-blockart-developing.apk">下载</a>（谷歌play版）（需要谷歌框架）</p>
+              <p>安卓版<a href="https://mdownload.miniworldgame.com/miniwmobile/android-miniwan-blockart-ow.apk">下载</a></p>
+              <p>桌面版<a href="https://mdownload.miniworldgame.com/mobile/mini_world_installation_package.exe">下载</a></p>
+              <p>苹果版<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">下载</a></p>
+              <p> &nbsp; </p>
+              </div>
+              <div class="nav07_kj">
+              <h5>墨画家族官网下载地址【可能不是最新版本】【不需要翻墙】【推荐】</h5>
+              <p>安卓版<a href="      ">下载</a>（谷歌play版）（需要谷歌框架）</p>
+              <p>安卓版<a href="         ">下载</a></p>
+              <p>桌面版<a href="https://www.123pan.com/s/zTZRVv-hdc0h">下载</a></p>
+              <p>苹果版[不支持]（苹果用户请前往<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">苹果App Store下载</a>）</p>
+              <p> &nbsp; </p>
+            </div>
+            
+            <!-- 到底了-提示 -->
+            <p class="ebpx7">--- 如果有能力还请<a href="https://mohuajz.top/other/donate/">支持一下我们</a>---</p>
+          </div>
+          <!-- 第四页 - 与我们合作 -->
+          <div id="nav08">
+            <div class="nav08_bg">
+              <div class="nav08_bt">历史版本</div>
+            </div>
+            <!-- 文件托管 -->
+            <div class="nav08_kj">
+              <h3>😁历史版本</h3>
+              <p>[404 无法获取服务器数据]</p>
+            </div>
+            <!-- 到底了-提示 -->
+            <p class="ebpx8">--- 暂时先展示这么多啦 ---</p>
+          </div>
+        </div>
+      </div>
+      <!-- 入场动画 -->
+      <div id="etext"></div>
+      <!-- 背景图片+背景灰度 -->
+      <div id="ebg"></div>
+      <div id="ebga"></div>
+      <!-- 背景飘落 -->
+      <div id="xuna"></div>
+      <script src="js/cnm.sb_bg.js"></script> </div>
+    <!-- 手机MP端 -->
+    <div id="mp">
+      <div id="excontent">
+        <!-- NO1-首页内容 -->
+        <div id="exnav01">
+          <div class="exn1_top"> <img src="img/cnm.sb.ico"> <span><a href="https://mohuajz.top"
+
+                target="_blank" rel="noopener noreferrer">墨画家族</a></span>
+            <!-- <a href="https://mohuajz.top" target="_blank" rel="noopener noreferrer">官网</a> --> </div>
+          <div class="exn1_banner">
+            <h3>迷你世界</h3>
+            <p>《迷你世界》是一款高度自由的休闲3D沙盒游戏</p>
+            <p>官网地址：<a href="https://mini1.cn">mini1.cn</a></p>
+          </div>
+          <ul class="exn1_but">
+            <li id="exn1_01">
+              <div><img src="font/cnmsb01.png"></div>
+              <h5>首页</h5>
+              <p>当前页面-可以前往<span class="red">PC端</span>观看美景哟！</p>
+            </li>
+            <li id="exn1_02">
+              <div><img src="font/cnmsb05.png"></div>
+              <h5>关于</h5>
+              <p>关于《迷你世界》</p>
+            </li>
+            <li id="exn1_03">
+              <div><img src="font/mohua02.png"></div>
+              <h5>下载</h5>
+              <p>下载《迷你世界》</p>
+            </li>
+            <li id="exn1_04">
+              <div><img src="font/cnmsb03.png"></div>
+              <h5>历史版本</h5>
+              <p>《迷你世界历史版本》</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- NO2-关于 -->
+      <div id="exnav02">
+        <div class="exn02_bg">
+          <p>关于《迷你世界》</p>
+        </div>
+        <div class="exn02_zl">
+          <h3 class="exn_bt">😁《迷你世界》😁</h3>
+          <div class="exn02_kjt">
+            <p>《迷你世界》是一款高自由的精美3D沙盒游戏。这里没有规则限制，也没有特定的玩法，只有创造、生存与冒险的乐趣。可以通过双手和智慧完成一座城市或你理想的建筑，也可以化勇气为力量挑战荒野生存。可以体验躺在一望无际的草原感受天空与卷云舒的那份自在，也可以感受小动物围在身边的轻松惬意。当然你也可以做一位世界改造者，植树造林、挖河造湖、创建生态，发挥你的创造力改变世界，让世界变得更美好！最后还可以把你构建的世界分享给小伙伴，邀请伙伴一起冒险，一起欢乐，一起创造属于你我的世界！</p>
+          </div>
+        </div>
+        <div class="exn02_zl">
+          <h3 class="exn_bt">😁链接</h3>
+          <div class="exn02_kjt">
+            <p><a href="https://mini1.cn">迷你世界官网</a></p>
+            <p><a href="https://kfz.mini1.cn/">迷你世界创作者服务平台</a></p>
+            <p><a href="https://www.mini1.cn/article/20190527/836.html">联系迷你世界官方</a></p>
+            <p> &nbsp; </p>
+          </div>
+        </div>
+        <!-- 到底了-提示 -->
+        <p class="exbpx">--- 暂时先展示这么多啦 ---</p>
+      </div>
+      <!-- NO3-关于 -->
+      <div id="exnav03">
+        <div class="exn03_bg">
+          <p>下载《迷你世界》</p>
+        </div>
+        <div class="exn03_zl">
+          <h3 class="exn_bt">迷你官方下载地址(由迷你世界官方提供)【推荐】</h3>
+          <div class="exn03_kjt">
+            <p>前往<a href="https://mini1.cn">官网下载</a></p>
+            <p>安卓版<a href="https://mdownload.mini1.cn/latest/miniworldMini-wp.apk">下载</a></p>
+            <p>桌面版<a href="https://mdownload.mini1.cn/latest/miniworldoffice.exe">下载</a></p>
+            <p>苹果版<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">下载</a></p>
+            <p> &nbsp; </p>
+          </div>
+        </div>
+        <div class="exn03_zl">
+          <h3 class="exn_bt">墨画家族官网下载地址(可能不是最新版本)【不推荐】</h3>
+          <div class="exn03_kjt">
+            <p>安卓版<a href="https://www.123pan.com/s/zTZRVv-3dc0h">下载</a></p>
+            <p>桌面版<a href="https://www.123pan.com/s/zTZRVv-ddc0h">下载</a></p>
+            <p>苹果版[不支持]（苹果用户请前往<a href="https://itunes.apple.com/cn/app/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C-%E5%85%A8%E6%B0%91%E5%88%9B%E4%BD%9C%E7%9A%84%E6%B2%99%E7%9B%92%E5%B9%B3%E5%8F%B0/id1170455562?mt=8">苹果App Store下载</a>）</p>
+            <p> &nbsp; </p>
+          </div>
+        </div>
+        <!-- 到底了-提示 -->
+        <p class="exbpx">--- 暂时先展示这么多啦 ---</p>
+      </div>
+      <!-- NO5-关于我们 -->
+      <div id="exnav04">
+        <div class="exn04_bg">
+          <p>历史版本</p>
+        </div>
+        <div class="exn04_zl">
+          <h3 class="exn_bt">😁历史版本</h3>
+          <div class="exn04_kjt">
+            <p>[404 无法获取服务器数据]</p>
+          </div>
+        </div>
+        <!-- 到底了-提示 -->
+        <p class="exbpx">--- 如果有能力还请<a href="https://mohuajz.top/other/donate/">支持一下我们</a>---</p>
+      </div>
+      <!-- 页面截止 -->
+      <!-- 导航区域 -->
+      <ul id="exnav">
+        <li><img src="font/cnmsb01.png">
+          <p>首页</p>
+        </li>
+        <li><img src="font/cnmsb05.png">
+          <p>关于</p>
+        </li>
+        <li><img src="font/mohua02.png">
+          <p>下载</p>
+        </li>
+        <li><img src="font/cnmsb03.png">
+          <p>历史</p>
+        </li>
+      </ul>
+      <!-- 背景飘落 -->
+      <div id="xuna"></div>
+      <script src="js/cnm.sb_bg.js"></script> </div>
+  </body>
+</html>
