@@ -2,7 +2,7 @@
 ((function() {
 		var callbacks = [],
 			timeLimit = 50,
-			open = false;
+			open = true;
 		setInterval(loop, 1);
 		return {
 			addListener: function(fn) {
@@ -29,7 +29,7 @@
 				//alert('CNM温馨提醒：\n小样！还想扒我的站？\n自己老实一点！');
 				//document.body.innerHTML = "";
 			//} else {
-				//open = false;
+				//open = true;
 			//}
 		//}
 	//})()).addListener(function() {

@@ -322,9 +322,9 @@ a{
 }
 .exn4_bg{
 	width: 100%;
-	height: 200px;
+	height: 500px;
 	/* 迷你世界顶部头图 */
-	background-image: url(../img/cdbj.jpg);
+	background-image: url(../img/mini.jpg);
 	background-size: cover;
 	position: relative;
 }
@@ -441,134 +441,130 @@ a{
 	letter-spacing: 2px;
 	margin: 60px 0px 40px 0px;
 }
-/* NO5-关于本站 */
+/* NO5-我的世界 */
 #exnav05{
-	width: 100%;
 	display: none;
 }
-.exn05_bg{
+.exn5_bg{
 	width: 100%;
-	height: 200px;
-	/* 关于本站顶部头图 */
-	background-image: url(../img/benzhanyuanma.jpg);
+	height: 500px;
+	/* 我的世界顶部头图 */
+	background-image: url(../img/mc.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	position: relative;
 }
-.exn05_bg p{
+.exn5_bg_nav{
 	width: 120px;
 	height: 40px;
 	line-height: 40px;
+	/* 站点展示页面顶图文字背景颜色 */
+	background-image: linear-gradient(to top left,#25d8df , #69cd76);
+	box-shadow: 0px 0px 10px rgba(40,40,40,0.08);
+	border-radius: 5px;
 	position: absolute;
-	bottom: -20px;
 	left: 0;
 	right: 0;
+	bottom: -20px;
 	margin: auto;
-	/* 关于本站顶图文字背景颜色 */
-	background-image: linear-gradient(to top left,#25d8df , #CD69C9);
-	border-radius: 6px;
-	box-shadow: 0px 0px 10px rgba(40,40,40,0.05);
+}
+.exn5_bg_nav img{
+	width: 30px;
+	margin: 5px;
+	float: left;
+}
+.exn5_bg_nav span{
 	font-size: 12px;
-	text-align: center;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color: #282828;
+	float: left;
+	margin-left: 10px;
 }
-.exn05_kj{
-	width: 100%;
-}
-.exn_bt{
-	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	margin: 60px 0px 20px 6%;
-}
-.exn05_kjt{
+.exn5_nr{
 	width: 90%;
+	margin: 60px auto;
+}
+.exnav05_centent_tit{
+	text-align: center;
+}
+.exnav05_centent_tit h2{
+	font-size: 24px;
+}
+.exnav05_centent_tit p{
+	color: rgba(68, 63, 63, 0.5);
+	font-size: 15px;
+}
+.exnav05_centent_mb{
+	width: 100%;
+	height: 240px;
+	background: #fff;
+	border-radius: 10px;
+	margin-top: 50px;
+	position: relative;
+}
+.exnav05_centent_mb a{
+	width: 100%;
 	height: 100%;
-	padding-left: 10%;
-	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
 }
-.exn05_kjt p{
-	font: 14px;
-	text-shadow: 5px 5px 5px #909090;
-	font-weight: 400;
-	letter-spacing: 1px;
-	line-height: 40px;
-	color: rgba(40,40,40,0.9);
-	border-bottom: 1px dashed rgba(40,40,40,0.08);
+.exnav05_centent_mb:hover div{
+	top: -30px;
 }
-.exmb05{
+.exnav05_centent_mb a div{
+	width: 100%;
+	height: 160px;
+	border-radius: 10px;
 	overflow: hidden;
 }
-.exmb05 p{
+.exnav05_centent_mb a div img{
 	width: 100%;
+}
+.exnav05_centent_mb a h3{
+	font: 18px cnm,Arial,sans-serif;
+	text-shadow: 5px 5px 5px #909090;
+	font-weight: 600;
+	margin-left: 5%;
+	margin-top: 20px;
+	color: #282828;
+	letter-spacing: 2px;
+}
+.exnav05_centent_mb a p{
 	font-size: 12px;
 	font-weight: 400;
+	margin-left: 5%;
+	margin-top: 5px;
+	color: #bbbbbb;
 	letter-spacing: 1px;
-	color: #999;
-	padding-left: 10%;
-	float: left;
 }
-.exmb05 div{
-	width: 46%;
-	height: 80px;
-	background: #fff;
-	float: left;
-	margin: 20px 2%;
-	border-radius: 8px;
-	cursor: pointer;
-}
-.exmb05 div img{
-	width: 60px;
-	border-radius: 8px;
-	margin: 10px;
-	float: left;
-}
-.exmb05 div span{
-	float: left;
-	font-size: 14px;
+.exnav05_centent_mb>div{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	top: 0;
+	left: 0;
+	border-radius: 10px 10px 0px 0px;
+	z-index: 2;
+	background-color: #cfbc9a;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 2px;
-	margin-top: 16px;
-	width: 40%;
-	color: #282828;
-}
-.exmb05 div span:nth-child(3){
-	font-size: 12px;
-	margin-top: 5px;
-	color: #b4b4b4;
-	letter-spacing: 1px;
-}
-#exjn{
-	width: 90%;
-	margin: auto;
-}
-#exjn a{
-	display: inline-block;
-	line-height: 36px;
-	padding: 0px 20px;
-	margin: 6px 0px;
-	border-radius: 5px;
-	text-decoration: none;
-	font: 12px;
-	letter-spacing: 1px;
-	color: #535353;
-	background-color: #fff;
-	box-shadow: 0px 0px 10px rgba(40,40,40,0.05);
+	color: #f9f9f9;
 	transition: 0.5s;
 }
-#exjn a:hover{
-	box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
-}
-.exbpx{
+.exnav05_footer{
+	width: 100%;
+	height: 20px;
 	text-align: center;
+	color: #b3bdc3;
 	font-size: 12px;
-	letter-spacing: 2px;
 	font-weight: 400;
-	color: #cecece;
-	margin: 30px 0px;
+	letter-spacing: 2px;
+	margin: 60px 0px 40px 0px;
 }
 /* 页面截止 */
 

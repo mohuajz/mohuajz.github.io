@@ -687,7 +687,7 @@ li{
 	width: 100%;
 	height: 420px;
 	/* 站点展示页面顶部头图 */
-	background-image: url(../img/mini.jpg);
+	background-image: url(../img/cdbj.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -710,7 +710,7 @@ li{
 	left: 0;
 	z-index: 3;
 	/* 站点展示页面顶部头图 */
-	background-image: url(../img/mini.jpg);
+	background-image: url(../img/cdbj.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -731,7 +731,7 @@ li{
 	cursor: pointer;
 }
 .nav05_top_fj img{
-	width: 30px;
+	width: 45px;
 	animation: nav05_fj 5s infinite;
 }
 /* 动画定义 */
@@ -886,7 +886,7 @@ li{
 	margin: 60px 0px 40px 0px;
 }
 
-/*-----Nav07-我的世界-内容区域-右侧------*/
+/*-----Nav07-本站源码-内容区域-右侧------*/
 #nav07{
 	width: 100%;
 	height: 100%;
@@ -914,56 +914,15 @@ li{
    border-radius:3px;
    background-color: rgba(40,40,40,0.6);
 }
-.nav07_top{
+.nav07_bg{
 	width: 100%;
-	height: 420px;
-	/* 站点展示页面顶部头图 */
-	background-image: url(../img/mc.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
+	height: 360px;
+	/* 本站源码页面顶部头图 */
+	background-image: url(../img/benzhanyuanma.jpg);
 	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	position: relative;
-	margin-bottom: 60px;
-}
-.nav07_topbgkj{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-}
-.nav07_top_bg{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 3;
-	/* 站点展示页面顶部头图 */
-	background-image: url(../img/mc.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	animation: nav05_bg 5s infinite;
-}
-.nav07_top_fj{
-	width: 80px;
-	height: 60px;
-	background-image: linear-gradient(to top left,#caff85 , #87f3c6);/* 顶图小飞机背景颜色 */
-	border-radius: 5px;
-	position: absolute;
-	bottom: -25px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	z-index: 5;
-	box-shadow: 0px 0px 10px rgba(40,40,40,0.2);
-	cursor: pointer;
-}
-.nav07_top_fj img{
-	width: 30px;
-	animation: nav05_fj 5s infinite;
 }
 .nav07_bt{
 	width: 240px;
@@ -1041,6 +1000,7 @@ li{
 	color: #535353;
 	margin: 30px 0px;
 }
+
 
 /*-----Nav08-关于本站-内容区域-右侧------*/
 #nav08{
