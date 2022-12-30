@@ -161,7 +161,25 @@
             <!-- 文件托管 -->
             <div class="nav08_kj">
               <h3>😁历史版本</h3>
-              <p>[404 无法获取服务器数据]</p>
+              <h5>历史版本目前只有安卓的(苹果渠道的必须在苹果应用商店下载,PC端的登录需要服务器验证,但是一连上服务器就会自动下载更新)</h5>
+              <p>老版本需要离线运行才能正常游玩,你需要关闭WIFI、流量等</p>
+              <p>&nbsp;</p>
+              <p>老版本比较特殊建议详细阅读<a href="https://bbs.mohuajz.top/forum.php?mod=viewthread&tid=9&fromuid=1">教程</a>后再来</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>0.10.8[远古版本]&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-0Ac0h">下载</a></p>
+              <p>&nbsp;</p>
+              <p>1.15.0&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-KAc0h">下载</a></p>
+              <p>0.46.0&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-uAc0h">下载</a></p>
+              <p>0.45.0&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-UAc0h">下载</a></p>
+              <p>0.44.2&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-SAc0h">下载</a></p>
+              <p>0.44.0&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-lAc0h">下载</a></p>
+              <p>0.43.6&nbsp;&nbsp;<a href="https://www.123pan.com/s/zTZRVv-7Ac0h">下载</a></p>
+              <p>[历史版本我们还一直在整理]</p>
             </div>
             <!-- 到底了-提示 -->
             <p class="ebpx8">--- 暂时先展示这么多啦 ---</p>
@@ -228,7 +246,8 @@
         <div class="exn02_zl">
           <h3 class="exn_bt">😁链接</h3>
           <div class="exn02_kjt">
-            <p><a href="https://mini1.cn">迷你世界官网</a></p>
+            <p><a href="https://mini1.cn">迷你世界官网</a>（大陆）</p>
+            <p><a href="https://miniworldgame.com/">迷你世界官网</a>（国际）</p>
             <p><a href="https://kfz.mini1.cn/">迷你世界创作者服务平台</a></p>
             <p><a href="https://www.mini1.cn/article/20190527/836.html">联系迷你世界官方</a></p>
             <p> &nbsp; </p>
