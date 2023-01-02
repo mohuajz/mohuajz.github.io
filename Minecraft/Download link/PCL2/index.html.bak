@@ -9,11 +9,11 @@
     <!-- MDUI CSS -->
     <link rel="stylesheet" href="css/mdui.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>下载HMCL-PE - 墨画家族官网</title>
+    <title>下载PCL2 - 墨画家族官网</title>
     <link rel="shortcut icon" href="https://mohuajz.top/logo/logo-32x32.ico">
     <!--SEO Optimize-->
-    <meta name="keywords" content="下载HMCL-PE">
-    <meta name="description" content="下载HMCL-PE - 墨画家族官网">
+    <meta name="keywords" content="下载PCL2">
+    <meta name="description" content="下载PCL2 - 墨画家族官网">
     <meta name="author" content="Tungsten">
     <meta name="copyright" content="Copyright (c) 2022 Tungsten">
     <!--IE HTML5-->
@@ -26,7 +26,7 @@
 
           mdui-drawer="{target: '#drawer'}"><em class="mdui-icon material-icons">menu</em></span> <a
 
-          href="index.html" class="mdui-typo-headline">下载HMCL-PE</a> </div>
+          href="index.html" class="mdui-typo-headline">下载PCL2</a> </div>
     </div>
     <div class="mdui-drawer mdui-shadow-10" id="drawer">
       <div class="mdui-list"> <ui class="mdui-list-item mdui-ripple"> <em
@@ -37,20 +37,18 @@
 
           class="mdui-list-item mdui-ripple"> <em class="mdui-list-item-icon mdui-icon material-icons"></em> <a
 
-            href="index.html" class="mdui-list-item-content">下载HMCL-PE</a> </ui> </div>
+            href="index.html" class="mdui-list-item-content">下载PCL2</a> </ui> </div>
     </div>
     <!--banner-->
     <div class="mdui-container mdui-center">
       <div class="banner">
-        <h1>下载HMCL-PE</h1>
-        <h2><a href="https://tungstend.github.io/">HMCL-PE官网</a></h2>
+        <h1>下载PCL2</h1>
+        <h2>PCL2暂时没有官网</h2>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p><a href="https://www.123pan.com/s/zTZRVv-J9c0h">下载HMCL-PE</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+        <p><a href="https://www.123pan.com/s/zTZRVv-I9c0h">下载PCL2(Win)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
 
-            href="https://www.123pan.com/s/zTZRVv-B9c0h">下载Java17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-
-            href="https://bbs.mohuajz.top/forum.php?mod=viewthread&tid=14&fromuid=1">教程</a></p>
+            href="https://www.java.com/zh-CN/download/">下载Java</a>&nbsp;&nbsp;&nbsp;&nbsp;[竹林还没做教程,<a href="https://api.mohuajz.top/mail/api.php?adress=zhulin@mohuajz.top&title=催促提醒&content=快更新PCL2启动器的教程啦&isHTML=false" target="_blank">点击催一下</a>]</p>
       </div>
     </div>
     <script src="js/jsonp.js"></script>
