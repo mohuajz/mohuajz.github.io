@@ -2,11 +2,11 @@
 function AddFavorite(title, url)
 {
     try {
-        window.external.addFavorite(url, title);
+        window.external.AddFavorite('https://mohuajz.top/','墨画家族官方网站-墨画家族官网');
     }
     catch (e) {
         try {
-            window.sidebar.addPanel(title, url, "");
+            window.sidebar.addPanel('墨画家族官方网站'，'www.mohuajz.top','');
         }
         catch (e) {
             alert("抱歉，您所使用的浏览器无法完成此操作。\n加入收藏失败，请使用 [ Ctrl+D ] 进行添加");
