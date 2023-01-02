@@ -28,7 +28,7 @@ li{
 	top: 0;
 	bottom: 0;
 	margin: auto;
-	z-index: 2;
+	z-index: -2;
 	transform: translateY(50%);
 	color: #F9F9F9;
 	font-size: 22px;
