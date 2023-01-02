@@ -18,7 +18,7 @@ window.onload=function()
 	let divTyping = document.getElementById('etext')
 	let i = 0,
 		timer = 0,
-		str = '不造谣不信谣不传谣'
+		str = ''
 	function typing()
 	{
 		if (i <= str.length)
